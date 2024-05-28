@@ -4,7 +4,6 @@ import Productrow from "@/components/admin_panel/Productrow";
 import { setLoading } from "@/redux/features/loadingSlice";
 import { useAppDispatch } from "@/redux/hooks";
 import axios from "axios";
-import { error } from "console";
 import React, { useEffect, useState } from "react";
 
 export interface IProduct {
