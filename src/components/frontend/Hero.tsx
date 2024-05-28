@@ -15,7 +15,7 @@ const Hero = () => {
                 starting at <span className="font-bold">$999.00</span>
               </p>
               <h1 className="text-topHeadingPrimary font-bold text-4xl md:text-5xl">
-                The Best Mac note book collection 2023
+                The Best Macbook Pro collections at 2024 - 2025
               </h1>
               <h3 className="text-2xl font-['Oregano',cursive]">
                 Exclussive Offer <span className="text-red-600">-10%</span> off

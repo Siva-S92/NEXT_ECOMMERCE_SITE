@@ -19,7 +19,7 @@ const Banner = () => {
           </a>
         </div>
 
-        <div className="h-[260px] bg-[url(/product-banner-2.jpg)] bg-right rounded-xl hidden lg:block "></div>
+        <div className="h-[260px] bg-[url(/banner2.jpg)] bg-cover bg-center rounded-xl hidden lg:block "></div>
       </div>
     </div>
   );
