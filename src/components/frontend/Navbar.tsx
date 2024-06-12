@@ -34,7 +34,7 @@ const Navbar = ({ setShowCart }: PropsType) => {
 
               <div>
                 <p className="text-gray-500">Hello! Sign in</p>
-                <p className="font-medium">Your Account</p>
+                <p className="font-medium">To Dashboard</p>
               </div>
             </div>
 

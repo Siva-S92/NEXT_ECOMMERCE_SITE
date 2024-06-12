@@ -15,7 +15,7 @@ const CartProduct: React.FC<PropsType> = ({id, img, title, price, quantity}) => 
   return (
     <div className='flex justify-between items-center'>
         <div className='flex items-center gap-4'>
-            <img className='h-[80px] ' src={img} alt={title} />
+            <img className='h-[80px] w-[100px] object-contain border rounded' src={img} alt={title} />
             <div className='space-y-2'>
                 <h3 className='font-medium'>{title}</h3>
                 <p className='text-gray-600 text-[14px] '>
