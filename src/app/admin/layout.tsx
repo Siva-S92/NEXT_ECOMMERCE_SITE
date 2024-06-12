@@ -6,7 +6,7 @@ import { useAppSelector } from "@/redux/hooks";
 import { useSession } from "next-auth/react";
 import React, { ReactNode } from "react";
 
-const layout = ({children}: {children: ReactNode}) => {
+const AdminLayout = ({children}: {children: ReactNode}) => {
   const isLoading = useAppSelector((store) => store.loadingReducer);
   const { data: session } = useSession();
   if (!session?.user) {
@@ -26,4 +26,4 @@ const layout = ({children}: {children: ReactNode}) => {
   );
 };
 
-export default layout;
+export default AdminLayout;
