@@ -11,6 +11,7 @@ export const { GET, POST } = createRouteHandler({
   // config: { ... },
 });
 
+export const dynamic = 'force-dynamic';
 export async function DELETE(request: Request) {
   const { fileKey } = await request.json();
   const utApi = new UTApi();
