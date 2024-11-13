@@ -1,9 +1,9 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
 interface ProductFormat {
-  id: String;
-  title: String;
-  img: String;
+  id: string;
+  title: string;
+  img: string;
   price: number;
   quantity: number;
 }
